@@ -1,0 +1,66 @@
+@import "fonts.css";
+@import "body.css";
+@import "footer.css";
+.header {
+  box-sizing: border-box;
+  background-color: #f4a100;
+  padding: 5px 5px;
+  height: 80px;
+  border-style: solid;
+  border-color: #f4a100;
+  z-index: 99;
+}
+.header #logo {
+  float: left;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #f4a100;
+  border-radius: 50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 105px;
+}
+
+.logo {
+  width: 35px;
+  height: 40px;
+}
+
+.navbar__menu ul {
+  align-items: flex-start;
+  padding-left: 0;
+  margin: 0;
+  text-align: left;
+}
+
+#navbar_list {
+  margin-left: 10em;
+}
+
+.navbar__menu .categories {
+  margin-left: 50px;
+  margin-top: 5px;
+  display: inline-block;
+  padding: 1em;
+}
+
+.categories a {
+  font-family: "Gothic A1BOLD";
+  text-decoration: none;
+  color: white;
+}
+.w3-right {
+  float: right !important;
+  margin-right: 50px;
+}
+
+.categories a:hover {
+  color: #7a0e12;
+}
