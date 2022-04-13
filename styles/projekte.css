@@ -24,6 +24,7 @@ img{
     width: inherit;
     height: 306px;
     background-size: cover;
+    opacity: 0.5;
 }
 
 .GameInfo {
@@ -37,8 +38,9 @@ img{
 
 .Game:hover .GameInfo{
     display: block;
+    font-weight: bolder;
 }
 
-.Game:hover{
-    color: black;
+.Game:hover img{
+    opacity: 1;
 }
