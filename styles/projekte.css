@@ -14,10 +14,28 @@ body{
 
 .Game {
     width: 100%;
+    position: relative;
 }
 
 img{
     max-width:100%;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.GameInfo {
+    position: absolute;
+    top: 160px;
+    padding: 24px;
+    color: rgba(255,255,255,1);
+    display: none;
+}
+
+
+.Game:hover .GameInfo{
+    display: block;
+}
+
+.Game:hover{
+    color: black;
 }
