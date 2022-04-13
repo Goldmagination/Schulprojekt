@@ -18,14 +18,17 @@ body{
 }
 
 img{
-    max-width:100%;
     border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%);
+    float: left;
+    width: inherit;
+    height: 306px;
+    background-size: cover;
 }
 
 .GameInfo {
     position: absolute;
-    top: 160px;
+    bottom: 0;
     padding: 24px;
     color: rgba(255,255,255,1);
     display: none;
