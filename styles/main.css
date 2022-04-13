@@ -65,3 +65,9 @@
 .categories a:hover {
   color: #7a0e12;
 }
+
+.projects {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-shadow: 7px 6px 4px #000;
+}

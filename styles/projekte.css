@@ -1,0 +1,46 @@
+body{
+    padding: 2rem;
+}
+.Title{
+    text-align: center;
+}
+.GamesContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-items: stretch;
+    padding: 30px;
+}
+
+.Game {
+    width: 100%;
+    position: relative;
+}
+
+img{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%);
+    float: left;
+    width: inherit;
+    height: 306px;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.GameInfo {
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    color: rgba(255,255,255,1);
+    display: none;
+}
+
+
+.Game:hover .GameInfo{
+    display: block;
+    font-weight: bolder;
+}
+
+.Game:hover img{
+    opacity: 1;
+}
