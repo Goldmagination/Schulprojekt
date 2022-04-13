@@ -41,6 +41,6 @@ img{
     font-weight: bolder;
 }
 
-.Game:hover #gameImage{
+.Game:hover .gameImage{
     opacity: 1;
 }
