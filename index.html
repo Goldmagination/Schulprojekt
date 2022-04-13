@@ -10,37 +10,39 @@
     <title>Traumbetrieb</title>
 </head>
 
-<body>
+<body> 
     <header class="header" id='header'>
         <nav class="navbar__menu">
             <a href="/" class='logo' id='logo'>
-                <img src="styles\img\logo72px-1.png" alt="AbeSa" class="logo">
+                <img src="styles\img\logo72px-1.png" alt="Traumbetrieb" class="logo">
             </a>
-            <ul style="list-style-type:none" id="navbar_list">
-                <li class='categories'><a href="#">ABOUT</a></li>
-                <li class='categories'><a href="#">NEWS</a></li>
-                <li class='categories'><a href="/contacts">CONTACT</a></li>
-                <li class='categories'><a href="#">HOME</a></li>
-                <li class='categories w3-right'><a href="/login">LOG-IN</a> </li>
-                <li class='categories w3-right'><a href="/register">SIGN-UP</a></li>
+            <ul style="list-style-type:none" id="navbar__list">
+                <li class='categories' data-link="section1"><a href="#section1">ÜBER UNS</a></li>
+                <li class='categories' data-link="section2"><a href="#section2">AUSBILDUNG</a></li>
+                <li class='categories' data-link="section3"><a href="#section3">ADDRESSE</a></li>
+                <li class='categories w3-right'><a href=""> Unsere Projekte</a> </li>
             </ul>
         </nav>
 
     </header>
+    <main>
     <div class="hometeaser">
         <a href="#" id="hometeaser03" class="hometeaserclass" onmouseout="austausch03.src='styles/img/Kontakt.png';"
             onmouseover="austausch03.src='styles/img/Kontakt_mouseover.png';"> <img src="styles/img/Kontakt.png"
                 alt="Kontakt" width="152" height="152" name='austausch03'> </a>
     </div>
     <div class="content" id='main_section'>
+        <section id="section1" data-nav="Section 1" class="your-active-class">
         <div class='lorem1'>
             <img src="styles/img/willkommen.png" alt="Willkommen!">
-            <p> Wir sind Ihr Anbieter für XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-            <li>für XXXXXXXXXXXXXXXXXXXXXXXXXX</li>
-            <li>für XXXXXXXXXXXXXXXXXXXXXXXXXX</li>
-            <li>für XXXXXXXXXXXXXXXXXXXXXXXXXX</li>
+            <p> Wir sind Ihr Spaßbringer. Game-Dev Firma Traumbetrieb GmbH</p>
+            <p>Unsere Tätigkeitsfelder liegt in den</p>
+            <li>MOBA-Meisterstücke</li>
+            <li>Shooter-Kunstwerke</li>
+            <li>MMORPG-Opera</li>
 
-            <p> Ein Schwerpunkt innerhalb unserer Tätigkeitsfelder liegt in der XXXXXXXXXXXXXXXXXX</p>
+            <p><a href=""> Alle unsere Projekte</a></p>
+            <p> Wir bieten euch eine ausgezeichnete Möglichkeit an, bei uns eine wunderschöne und fabelhafte Ausbildung zu absolvieren</p>
             <!-- Slideshow container -->
             <div class="slideshow-container">
 
@@ -73,7 +75,36 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </div>
+    </section>
         </br>
+        <section id="section2" data-nav="Section 2">
+        <div class="lorem1" id="ausbildung">
+            <h2 id="wirsind"><strong>Was erwartet dich bei uns?</strong></h2>
+            <p>Du bist ein begeisteter Mensch, der nie stillsteht und immer nach neue interresante und kreative Herausforderungen hungrig ist? Dann kannst du deine berufliche Zukunft auf uns verlassen.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Neque quasi ex, provident excepturi eaque recusandae nihil maiores esse ut! 
+                Sint dolores quaerat dicta fugit quibusdam totam possimus cupiditate, ut amet?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia tempora, itaque inventore eius saepe porro dolorem voluptatem ipsum delectus corporis quidem alias aliquam repellat culpa magni adipisci quo corrupti accusamus velit voluptas dolores vitae eveniet nemo! Minima aut, consequuntur cupiditate totam perferendis officia minus delectus atque. Consequatur cum dolorem amet necessitatibus, quaerat maiores blanditiis molestias pariatur veritatis, rerum labore, qui sed odio et repudiandae obcaecati iure laboriosam numquam alias possimus? Officiis illo impedit magnam fuga! Aspernatur necessitatibus sit mollitia earum odio adipisci quo at deleniti architecto officia? Temporibus suscipit, facilis recusandae enim, tempora fuga accusantium ipsum a, sapiente eos earum optio eius quaerat delectus! Veritatis laudantium qui alias minima, vel, ipsa quia, harum reprehenderit consequuntur maiores inventore. Ad corporis, cupiditate, consectetur soluta, sed iure nemo tempore quasi dicta earum doloribus ut. Eveniet recusandae sapiente veritatis similique exercitationem omnis est! Ipsa, quod, minima, quas velit maxime blanditiis enim atque minus perferendis pariatur laboriosam exercitationem! Doloremque ipsum ipsam molestiae? Labore unde sunt nostrum ea blanditiis? Earum eum voluptatum minus nemo, labore impedit exercitationem aperiam? Sapiente aut hic sed porro, corporis ducimus adipisci itaque nihil labore autem dolorum, perferendis ratione soluta accusamus praesentium cumque. Quam reiciendis officia veritatis, ex facere libero omnis, commodi in veniam minus repellendus maiores unde. Illo, soluta repellendus ratione dolorum inventore quasi numquam perferendis voluptas earum quod aut totam atque doloremque harum! Molestias inventore sed facilis. Minus aliquam obcaecati qui nemo iste, fugiat autem laborum possimus expedita earum omnis? Numquam architecto expedita necessitatibus aliquam magni saepe fugiat tempora.</p>
+            <!-- BUTTON -->
+            <div class="wrapper">
+                <a class="cta" href="#">
+                  <span class="button-span">BEWERBE DICH</span>
+                  <span class="button-span">
+                    <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                        <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                        <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                      </g>
+                    </svg>
+                  </span> 
+                </a>
+              </div>
+              <!-- BUTTON -->
+        </div>
+    </section>
+    </br>
+    <section id="section3" data-nav="Section 3">
         <div class="lorem1">
             <h2 id='wirsind'><strong>Wir sind weiterhin für Sie da!</strong></h2>
             <p>Aufgrund der aktuell hohen Ansteckungsgefahr im Zusammenhang mit der
@@ -119,14 +150,16 @@
                 Terminvereinbarung (0176/11101825)</br>
             </p>
         </div>
-
+    </section>
+    </br>
     </div>
-
+</main>
     <footer class='page__footer'>
         <p>© Traumbetrieb GmbH 2000-2022 | Impressum | Datenschutzerklärung</p>
     </footer>
     <script src='styles/js/index.js'></script>
     <script src='styles/js/slideshow.js'></script>
+    <script src="styles/js/landing_pages.js"></script>
 </body>
 
 </html>

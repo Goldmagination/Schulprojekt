@@ -7,11 +7,17 @@ body {
 
 .lorem1 {
   background-color: white;
+  width: 70%;
   border-style: solid;
   border-radius: 15px;
   border-color: rgba(0, 0, 0, 0.075);
-  padding: 10px;
+  padding: 20px;
+  margin-left: 15%;
   font-family: "Gothic A1lorem";
+}
+#ausbildung.lorem1 {
+  width: 97vw;
+  margin-left: calc(50% - 50vw);
 }
 
 #wirsind {
@@ -21,7 +27,7 @@ body {
 #main_section {
   margin: auto;
   margin-top: 50px;
-  width: 50%;
+  width: 100%;
 }
 
 .hometeaser {
@@ -85,6 +91,7 @@ body {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  background-color: #707070;
 }
 
 /* The dots/bullets/indicators */
