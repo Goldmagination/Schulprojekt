@@ -1,0 +1,23 @@
+body{
+    padding: 2rem;
+}
+.Title{
+    text-align: center;
+}
+.GamesContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-items: stretch;
+    padding: 30px;
+}
+
+.Game {
+    width: 100%;
+}
+
+img{
+    max-width:100%;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
